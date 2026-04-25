@@ -1,0 +1,18 @@
+.skill {
+    margin: 10px 0;
+}
+
+.skill-name {
+    margin-bottom: 5px;
+}
+
+.bar {
+    width: 100%;
+    background: #ddd;
+    height: 20px;
+}
+
+.fill {
+    height: 100%;
+    background: #4CAF50;
+}

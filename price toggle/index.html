@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pricing Toggle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Pricing Plans</h2>
+
+<button onclick="showMonthly()">Monthly</button>
+<button onclick="showYearly()">Yearly</button>
+
+<!-- Monthly Section -->
+<div id="monthly" class="section">
+    <div class="card">
+        <h3>Basic</h3>
+        <p>$10/month</p>
+    </div>
+</div>
+
+<!-- Yearly Section -->
+<div id="yearly" class="section" style="display:none;">
+    <div class="card">
+        <h3>Basic</h3>
+        <p>$100/year</p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

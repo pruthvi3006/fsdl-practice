@@ -1,0 +1,31 @@
+body {
+    font-family: Arial;
+    background: #f4f6f8;
+    text-align: center;
+}
+
+.faq {
+    width: 300px;
+    margin: auto;
+}
+
+.item {
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.question {
+    background: #4CAF50;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+ 
+}
+
+.answer {
+    display: none;
+    padding: 10px;
+    background: white;
+}

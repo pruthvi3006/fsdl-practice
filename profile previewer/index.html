@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile Preview</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Profile Preview</h2>
+
+<div class="container">
+
+    <!-- Form -->
+    <div class="form">
+        <input type="text" id="name" placeholder="Enter Name" oninput="updateProfile()"><br>
+        <input type="text" id="role" placeholder="Enter Role" oninput="updateProfile()"><br>
+        <input type="text" id="bio" placeholder="Enter Bio" oninput="updateProfile()"><br>
+    </div>
+
+    <!-- Profile Card -->
+    <div class="card">
+        <h3 id="pname">Your Name</h3>
+        <p id="prole">Your Role</p>
+        <p id="pbio">Your Bio</p>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
