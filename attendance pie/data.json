@@ -1,0 +1,4 @@
+{
+  "labels": ["Present", "Absent", "Leave"],
+  "values": [70, 20, 10]
+}

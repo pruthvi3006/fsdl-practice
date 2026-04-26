@@ -1,0 +1,9 @@
+{
+  "days": ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"],
+  "temperature": [30,32,31,29,33,35,34],
+  "rainfall": [5,2,0,3,1,4,2],
+  "weather": {
+    "labels": ["Sunny","Rainy","Cloudy"],
+    "values": [4,2,1]
+  }
+}

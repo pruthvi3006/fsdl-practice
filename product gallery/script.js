@@ -20,6 +20,9 @@ products.forEach(p => {
     container.appendChild(card);
 })
 
+
+
 function buy(name){
     alert(name + "purchased");
 }
+

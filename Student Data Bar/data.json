@@ -1,0 +1,6 @@
+[
+  { "dept": "CS", "students": 80 },
+  { "dept": "IT", "students": 70 },
+  { "dept": "ENTC", "students": 90 },
+  { "dept": "MECH", "students": 50 }
+]

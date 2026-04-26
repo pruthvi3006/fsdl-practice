@@ -1,0 +1,28 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+input {
+    padding: 8px;
+    width: 200px;
+}
+
+button {
+    padding: 8px;
+    background-color: rgb(134, 80, 80);
+    color: white;
+    
+}
+
+li {
+    margin: 10px;
+    list-style: none;
+    background: white;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
