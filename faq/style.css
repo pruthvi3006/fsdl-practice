@@ -7,6 +7,8 @@ body {
 .faq {
     width: 300px;
     margin: auto;
+    border: 1px solid black;
+    padding: 30px;
 }
 
 .item {

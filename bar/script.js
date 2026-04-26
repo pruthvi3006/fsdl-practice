@@ -1,7 +1,7 @@
 let ctx=document.getElementById("myChart");
 
 new Chart(ctx,{
-    type:"doughnut",
+    type:"line",
     data:{
         labels:["CS","IT","ENTC","MECH"],
         datasets:[{

@@ -1,6 +1,6 @@
 // JSON data
 let products = [
-    { name: "Phone", price: "$500", img: "https://via.placeholder.com/150" },
+    { name: "Phone", price: "$500", img:"./image.png" },
     { name: "Laptop", price: "$900", img: "https://via.placeholder.com/150" },
     { name: "Headphones", price: "$100", img: "https://via.placeholder.com/150" }
 ];

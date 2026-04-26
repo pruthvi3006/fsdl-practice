@@ -3,6 +3,6 @@ function toggleMenu() {
 }
 
 function toggleDropdown(e) {
-    e.preventDefault();
+    // e.preventDefault();
     document.getElementById("dropdownMenu").classList.toggle("show");
 }

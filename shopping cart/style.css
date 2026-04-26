@@ -18,3 +18,8 @@ button{
     color: white;
     background-color: black;
 }
+img{
+    width: 80%;
+    padding: 05px;
+    margin: auto;
+}

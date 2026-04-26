@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Event Registration</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Event Registration</h2>
+
+    <div class="form-container">
+      <form id="form">
+        <input type="text" name="name" placeholder="Enter Name" required />
+        <input type="email" name="email" placeholder="Enter Email" required />
+        <input
+          type="text"
+          name="event"
+          placeholder="Enter Event Name"
+          required
+        />
+
+        <button type="submit">Register</button>
+      </form>
+
+      <p id="msg"></p>
+    </div>
+
+    <script>
+      document
+        .getElementById("form")
+        .addEventListener("submit", async function (e) {
+          e.preventDefault();
+
+          let formData = new FormData(this);
+          let data = Object.fromEntries(formData);
+
+          let res = await fetch("/register", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(data),
+          });
+
+          let msg = await res.text();
+          document.getElementById("msg").innerText = msg;
+
+          this.reset();
+        });
+    </script>
+  </body>
+</html>
